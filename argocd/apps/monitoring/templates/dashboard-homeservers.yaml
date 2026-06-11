@@ -321,7 +321,7 @@ data:
               "query": "label_values(node_cpu_seconds_total, instance)",
               "refId": "StandardVariableQuery"
             },
-            "refresh": 2,
+            "refresh": 1,
             "regex": "",
             "sort": 1,
             "type": "query"
@@ -333,5 +333,5 @@ data:
       "timezone": "browser",
       "title": "Home Server Auslastung",
       "uid": "homeserver-auslastung",
-      "version": 1
+      "version": 2
     }
